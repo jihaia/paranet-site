@@ -5,13 +5,16 @@ title: Blog
 
 <!-- START CONTACT SECTION -->
 <section class="container container-fixed-lg p-t-65 p-b-100  sm-p-b-30 sm-m-b-30">
-  {% for post in site.posts offset: 0 limit: 10 %}
-    <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    {{ post.date | date_to_string }}
-
-    <hr />
-{% endfor %}
+    <div class="row">
+        <div class="col-md-8">
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </section>
 <!-- END CONTACT SECION -->

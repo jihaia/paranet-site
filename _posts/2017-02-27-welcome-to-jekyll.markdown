@@ -1,6 +1,6 @@
 ---
-layout: page
-title:  "Welcome to Jekyll!"
+layout: post
+title:  "Hello Motto!"
 date:   2017-02-27 21:57:34 -0700
 categories: jekyll update
 ---
