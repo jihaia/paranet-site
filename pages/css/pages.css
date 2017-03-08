@@ -34,7 +34,7 @@ html,
 body {
   height: 100%;
 }
-/* Body Triggers for layout options 
+/* Body Triggers for layout options
 ------------------------------------------------------------------
 */
 body.mobile {
@@ -72,7 +72,7 @@ body.pace-white .pace .pace-progress {
   text-align: initial;
   display: block;
 }
-/* Header 
+/* Header
 ------------------------------------
 */
 .header {
@@ -216,7 +216,7 @@ body.pace-white .pace .pace-progress {
   background: #ffffff;
 }
 .header.dark {
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(255, 120, 38, 0.87);
 }
 .header.dark .menu > li > a:not(.btn) {
   color: #ffffff;
@@ -850,7 +850,7 @@ body.pace-white .pace .pace-progress {
 .menu-content[data-pages-direction="slideTop"] {
   top: 0;
 }
-/* Overlay Search 
+/* Overlay Search
 ------------------------------------
 */
 .overlay {
